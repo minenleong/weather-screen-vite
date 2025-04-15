@@ -1,0 +1,79 @@
+@import "../App.scss";
+
+.ws-search-header {
+  width: 800px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ws-search-label::after {
+  padding-left: 35px !important;
+  position: relative !important;
+  background-color: transparent !important;
+}
+
+.ws-form-background {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ws-description {
+  padding-left: 5rem;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.search-history {
+  margin-top: 20px;
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+}
+
+.history-list li {
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.temp-color {
+  color: #8d34eb;
+  font-size: 5em;
+}
+
+.centered-row {
+  display: flex;
+  justify-content: center;
+}
+
+.small-font{
+  font-size: small;
+}
+
+.ws-button-label{
+    font-size:x-small;
+    color: white;
+}
+
+.sh-list{
+  width: 10%;
+  text-align: right;
+}
